@@ -1,0 +1,47 @@
+*{margin:0;padding:0;}
+
+
+.autodropdown{position:absolute;}
+.abhijitscript{
+	padding:4px;
+	border:1px solid #333;
+}
+.suggestresult{
+	width:339px;
+	list-style:none;
+}
+ 
+.suggestresult li{
+	/*padding:5px;
+    border-top:0;
+    border-bottom:1px solid #666;*/
+	border:1px solid #333;
+	
+	cursor:pointer;
+	background:#333;
+	color:#fff;
+	
+}
+
+.suggestresult li:hover{
+	background:#666;
+	color:#ffffff;
+	cursor:pointer;
+}
+
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+ /*--------*/
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
+
+
